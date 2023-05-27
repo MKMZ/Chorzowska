@@ -1,0 +1,351 @@
+type: picture-elements
+elements:
+  - type: state-icon
+    entity: light.gabinet_zarowka_group
+    title: Gabinet light
+    style:
+      top: 45%
+      left: 20.2%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.sypialnia_zarowka_group
+    title: Sypialnia light
+    style:
+      top: 75%
+      left: 32%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.pralnia_zarowka_1
+    title: Pralnia light
+    style:
+      top: 16.5%
+      left: 54%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.przedpokoj_wlacznik
+    icon: mdi:lightbulb
+    title: Przedpokój light
+    style:
+      top: 40%
+      left: 48%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.kuchnia_szyna_group
+    title: Kuchnia szyna light
+    style:
+      top: 20%
+      left: 70%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.kuchnia_blat_group
+    title: Kuchnia blat light
+    style:
+      top: 10%
+      left: 77%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.salon_szyna_right_group
+    title: Salon right light
+    style:
+      top: 72%
+      left: 63%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.salon_szyna_center_group
+    title: Salon center light
+    style:
+      top: 77%
+      left: 71%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.salon_szyna_left_group
+    title: Salon left light
+    style:
+      top: 72%
+      left: 80%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.salon_stol_zarowka_group
+    title: Salon stół light
+    style:
+      top: 33.5%
+      left: 79.55%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.taras_zarowka
+    title: Taras light
+    style:
+      top: 33.5%
+      left: 94%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.lazienka_szyna_group
+    title: Lazienka szyna light
+    style:
+      top: 71%
+      left: 50%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: light.lazienka_lustro
+    title: Lazienka lustro light
+    style:
+      top: 63%
+      left: 55%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: climate.sypialnia_termostat
+    title: Sypialnia termostat
+    style:
+      top: 77%
+      left: 8%
+    double_tap_action:
+      action: more-info
+  - type: state-label
+    entity: binary_sensor.sypialnia_termostat_valve_state
+    title: Sypialnia termostat state
+    prefix: 'Valve: '
+    style:
+      top: 75%
+      left: 1%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.sypialnia_termostat
+    title: Sypialnia termostat current temperature
+    prefix: 'Current T: '
+    suffix: °C
+    attribute: current_temperature
+    style:
+      top: 77%
+      left: 1%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.sypialnia_termostat
+    title: Sypialnia termostat current heating setpoint
+    attribute: temperature
+    prefix: 'Target T: '
+    suffix: °C
+    style:
+      top: 79%
+      left: 1%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-icon
+    entity: climate.gabinet_termostat
+    title: Gabinet termostat
+    style:
+      top: 45.5%
+      left: 8%
+    double_tap_action:
+      action: more-info
+  - type: state-label
+    entity: binary_sensor.gabinet_termostat_valve_state
+    title: Gabinet termostat state
+    prefix: 'Valve: '
+    style:
+      top: 43.5%
+      left: 1%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.gabinet_termostat
+    title: Gabinet termostat current temperature
+    prefix: 'Current T: '
+    suffix: °C
+    attribute: current_temperature
+    style:
+      top: 45.5%
+      left: 1%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.gabinet_termostat
+    title: Gabinet termostat current heating setpoint
+    attribute: temperature
+    prefix: 'Target T: '
+    suffix: °C
+    style:
+      top: 47.5%
+      left: 1%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-icon
+    entity: climate.lazienka_termostat
+    title: Lazienka termostat
+    style:
+      top: 58%
+      left: 54.6%
+    double_tap_action:
+      action: more-info
+  - type: state-label
+    entity: binary_sensor.lazienka_termostat_valve_state
+    title: Lazienka termostat state
+    prefix: 'Valve: '
+    style:
+      top: 50%
+      left: 52%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.lazienka_termostat
+    title: Lazienka termostat current temperature
+    prefix: 'Current T: '
+    suffix: °C
+    attribute: current_temperature
+    style:
+      top: 52%
+      left: 52%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.lazienka_termostat
+    title: Lazienka termostat current heating setpoint
+    attribute: temperature
+    prefix: 'Target T: '
+    suffix: °C
+    style:
+      top: 54%
+      left: 52%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-icon
+    entity: climate.salon_termostat
+    title: Salon termostat
+    style:
+      top: 67%
+      left: 92.8%
+    double_tap_action:
+      action: more-info
+  - type: state-label
+    entity: binary_sensor.salon_termostat_valve_state
+    title: Salon termostat state
+    prefix: 'Valve: '
+    style:
+      top: 65%
+      left: 94.3%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.salon_termostat
+    title: Salon termostat current temperature
+    prefix: 'Current T: '
+    suffix: °C
+    attribute: current_temperature
+    style:
+      top: 67%
+      left: 94.3%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-label
+    entity: climate.salon_termostat
+    title: Salon termostat current heating setpoint
+    attribute: temperature
+    prefix: 'Target T: '
+    suffix: °C
+    style:
+      top: 69%
+      left: 94.3%
+      width: 2%
+      color: black
+      font-weight: 700
+  - type: state-icon
+    entity: binary_sensor.kuchnia_obecnosc_presence
+    title: Kuchnia presence
+    icon: mdi:motion-sensor
+    style:
+      background-color: rgb(255 255 255 / 50%)
+      top: 13%
+      left: 60%
+      width: 2%
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.lazienka_obecnosc_presence
+    title: Lazienka presence
+    icon: mdi:motion-sensor
+    style:
+      background-color: rgb(255 255 255 / 50%)
+      top: 77%
+      left: 42.7%
+      width: 2%
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.wejscie_drzwi_contact
+    title: Wejście otwartość drzwi
+    style:
+      top: 21.5%
+      left: 41%
+      width: 2%
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.lazienka_drzwi_contact
+    title: Lazienka otwartość drzwi
+    style:
+      top: 53.7%
+      left: 48%
+      width: 2%
+    double_tap_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.taras_drzwi_contact
+    title: Taras otwartość drzwi
+    style:
+      top: 43.3%
+      left: 91.5%
+      width: 2%
+    double_tap_action:
+      action: more-info
+image: https://raw.githubusercontent.com/MKMZ/Chorzowska/main/flat_plan.png
